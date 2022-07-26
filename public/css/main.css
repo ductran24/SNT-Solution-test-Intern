@@ -1,0 +1,150 @@
+* {
+  box-sizing: inherit;
+
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  height: 140px;
+  background-image: linear-gradient(180deg, #050505, #353434);
+}
+
+.header__navbar-item {
+  display: inline-block;
+  margin: 0 8px;
+  position: relative;
+}
+
+.header__navbar-item:hover,
+.header__navbar-icon-link:hover {
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+}
+
+.header__navbar-item,
+.header__navbar-item-link {
+  font-size: 1.9rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.header__navbar-item--bold {
+  font-weight: 500;
+}
+
+.header__navbar-item--space::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1.5px;
+  height: 14px;
+  background-color: rgb(168, 166, 166);
+  right: -10.5px;
+  top: 2px;
+}
+
+.header__navbar-icon-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header__navbar-icon {
+  font-size: 1.7rem;
+  margin: 0 2px;
+}
+
+.header__navbar--title-nopoiter {
+  cursor: text;
+  color: #fff;
+  margin-right: 0px;
+}
+
+.icon-margin-left {
+  margin-left: -7px;
+}
+
+
+.header__logo-img {
+  width: 130px;
+}
+
+.header-content {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menuLeft {
+  width: 25%;
+  float: left;
+}
+
+.show {
+  width: 75%;
+  float: left;
+}
+
+.show-item {
+  width: 33%;
+  float: left;
+  padding: 0 15px;
+}
+
+.item-image-wrapper {
+  border: 1px solid #F7F7F5;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.show-img img {
+  width: 100%;
+  height: 190px;
+}
+
+.panel {
+  border: 1px solid #F7F7F0;
+  margin-bottom: 35px;
+  padding-bottom: 20px;
+  padding-top: 15px
+}
+
+.panel li {
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.panel li a {
+  color: #696763;
+}
+
+.panel a:hover {
+  color: rgb(9, 97, 238);
+}
